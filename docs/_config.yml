@@ -32,7 +32,7 @@ github_username:  marcelvenema
 # Build settings
 # theme: minimal
 # remote_theme: pages-themes/minimal@v0.2.0
-theme: yekyll-theme-minimal
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
