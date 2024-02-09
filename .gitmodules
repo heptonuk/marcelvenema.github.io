@@ -1,0 +1,6 @@
+[submodule "site/themes/hugo-goa"]
+	path = site/themes/hugo-goa
+	url = https://github.com/kaapiandcode/hugo-goa.git
+[submodule "site/themes/tailwind"]
+	path = site/themes/tailwind
+	url = https://github.com/tomowang/hugo-theme-tailwind.git
