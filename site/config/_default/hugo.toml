@@ -1,0 +1,9 @@
+baseURL = 'https://marcelvenema.com/'
+languageCode = 'en-us'
+title = 'MarcelVenema.com'
+[params]
+  subtitle = 'The Best Widgets on Earth'
+  [params.contact]
+    email = 'marcel@w-tech.net'
+
+    

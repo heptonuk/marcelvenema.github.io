@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'MarcelVenema.com'
+theme = 'hugo-canvas'
+
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+[[menus.main]]
+name = 'about'
+pageRef = '/about'
+weight = 60
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
