@@ -1,6 +1,6 @@
 baseURL = 'https://marcelvenema.github.io/'
 languageCode = 'en-us'
-title = 'MarcelVenema.com'
+title = 'MarcelVenema'
 theme = "m10c"
 
 [params]
