@@ -2,10 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.29.12:1313/categories/</loc>
+    <loc>http://192.168.29.12:1313/tags/356/</loc>
+    <lastmod>2024-02-28T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/</loc>
+    <lastmod>2024-02-28T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/first-post/</loc>
+    <lastmod>2024-02-28T09:00:00+01:00</lastmod>
   </url><url>
     <loc>http://192.168.29.12:1313/</loc>
+    <lastmod>2024-02-28T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/tags/modelx/</loc>
+    <lastmod>2024-02-28T09:00:00+01:00</lastmod>
   </url><url>
     <loc>http://192.168.29.12:1313/tags/</loc>
+    <lastmod>2024-02-28T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/droomautodag-11-11-2023/</loc>
+    <lastmod>2023-11-22T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/dag-met-een-lach-08-10-2023/</loc>
+    <lastmod>2023-10-15T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/opkikkerdag-07-10-2023/</loc>
+    <lastmod>2023-10-14T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/wensrit-miranda-30-09-2023/</loc>
+    <lastmod>2023-10-07T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/wensrit-jonique-09-09-2023/</loc>
+    <lastmod>2023-09-17T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/wkz-06-09-2023/</loc>
+    <lastmod>2023-09-09T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/wensrit-luna-02-09-2023/</loc>
+    <lastmod>2023-09-07T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/droomautodag-08-07-2023/</loc>
+    <lastmod>2023-07-14T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/charity-events/</loc>
+    <lastmod>2023-06-15T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/blog/modelx/my-new-ride/</loc>
+    <lastmod>2023-04-15T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://192.168.29.12:1313/categories/</loc>
   </url>
 </urlset>
