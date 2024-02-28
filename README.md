@@ -16,7 +16,11 @@ sudo snap install hugo
 Go to user home dir
 hugo new site quickstart
 
+```
  hugo server --watch --verbose --buildDrafts --cleanDestinationDir --disableFastRender --baseURL http://192.168.29.12:1313 --bind 0.0.0.0
+```
+
+
 
 
 
@@ -26,4 +30,6 @@ sudo firewall-cmd --add-port=1313/tcp
 sudo firewall-cmd --runtime-to-permanent
 ```
 
+## Git submodules
+git submodule add https://github.com/vaga/hugo-theme-m10c.git site/themes/m10c
 

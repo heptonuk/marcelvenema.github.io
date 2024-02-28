@@ -14,6 +14,6 @@ theme = "m10c"
 
 
 [[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
+  identifier = "about"
+  name = "About"
+  url = "/about/"
