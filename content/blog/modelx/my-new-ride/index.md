@@ -10,7 +10,7 @@ Finally, dreams come true, I am the proud owner of a Tesla Model X Plaid! After 
 
 The X was ordered in November 2020. This was just before the Model X 'refresh' was announced. Tesla stopped production of the Model X in the Fremont factory to prepare for the refresh. It took some months before production was started, and the rumor was the X would be assembled in the new, yet-to-built, European Gigafactory in Berlin, Germany. This was delayed several times and with also the computer chip shortage, the 'special operation' in Ukraine, and other reasons unknown, I finally got an SMS if I was still interested in buying the Model X. Please respond within 20 hours or your order will be canceled...       
 
-{{< figure src="images/my-new-ride-09.jpg" width="300" alt="SMS message">}}{{< figure src="images/my-new-ride-07.jpg" width="300" alt="SMS message">}}{{< figure src="images/my-new-ride-08.jpg" width="300" alt="SMS message">}}
+{{< figure src="img/my-new-ride-09.jpg" width="300" alt="SMS message">}}{{< figure src="img/my-new-ride-07.jpg" width="300" alt="SMS message">}}{{< figure src="img/my-new-ride-08.jpg" width="300" alt="SMS message">}}
 
 
 The car was on my bucket list for several years and I am extremely happy that checkbox can be ticked.  The Model X has only five colors: white, black, grey, blue, and red. I ordered white and wrapped it with the 3M Thundercloud satin color.  It has six seats and I choose cream as the interior color. I like Tesla for the Full Self Driving (FSD) features and I cannot wait until this is available in Europe.

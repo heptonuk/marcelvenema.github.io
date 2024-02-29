@@ -3,7 +3,7 @@
 # WORK IN PROGRESS!!
 
 
-## Install hugo
+## Install Hugo
 ```
 sudo dnf install snapd
 sudo systemctl enable --now snapd.socket
@@ -17,7 +17,7 @@ Go to user home dir
 hugo new site quickstart
 
 ```
- hugo server --watch --verbose --buildDrafts --cleanDestinationDir --disableFastRender --baseURL http://192.168.29.12:1313 --bind 0.0.0.0
+ hugo server --watch --logLevel info --buildDrafts --cleanDestinationDir --disableFastRender --baseURL http://192.168.29.12:1313 --bind 0.0.0.0
 ```
 
 
