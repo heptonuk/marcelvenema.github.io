@@ -18,6 +18,9 @@ The car was on my bucket list for several years and I am extremely happy that ch
 
 It will be my daily drive and I want to attend several charity events to drive children at special events. The Tesla Model X Plaid is known for its exceptional performance and acceleration. It can go from 0 to 100 km/h in 2.6 seconds, providing an exhilarating driving experience. It is faster than most Ferraris, Lamborghinis, or Porsches. Also, the falcon-wing doors are an eyecatcher.
 
+
+
+
 ![My new ride](img/my-new-ride-02.jpg)
 ![My new ride](img/my-new-ride-03.jpg)
 ![My new ride](img/my-new-ride-04.jpg)
