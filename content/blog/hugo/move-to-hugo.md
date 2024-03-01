@@ -1,8 +1,8 @@
 ---
-title: "First Post"
-date: 2024-02-28T09:00:00+01:00
-draft: false
-tags: ["modelx", "356"]
+title: "Move to Hugo!"
+date: 2024-03-01T09:00:00+01:00
+draft: true
+tags: ["hugo"]
 ---
 ## Introduction
 
