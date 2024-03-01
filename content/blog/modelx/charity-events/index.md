@@ -9,3 +9,5 @@ Today the president of a charity organization phoned me about my application for
 ![Charity events](images/charity-events-01.jpg)
 
 I am a little disappointed but, in the end, I must respect this decision. And in a strange way, I totally agree with this decision, it seems it is a bit embarrassing for the drivers of the other cars racing a Tesla Model X…..  
+
+{{< youtube id="m22LeTb0J2I" title="Tesla Model X Plaid vs Lamborghini Huracan" >}}
