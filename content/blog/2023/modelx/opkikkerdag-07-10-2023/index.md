@@ -3,6 +3,7 @@ title: "Opkikkerdag oktober 2023"
 date: 2023-10-14T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 
 **(Dutch content)** Zaterdag 7 oktober was ik bij CenterParcs de Eemhof in Zeewolde voor mijn allereerste bijdrage als vrijwilliger op de opkikkerdag!

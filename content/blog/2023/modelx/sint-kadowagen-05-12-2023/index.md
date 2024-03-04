@@ -3,6 +3,7 @@ title: "Sinterklaas Kadowagen"
 date: 2023-12-09T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 
 Van de [Tesla Wensrit](https://teslawensrit.nl) organisatie kwam het verzoek om Sint en Piet te vervoeren voor een bezoek aan de basisschool de Meander in Lelystad. Al snel waren vier Tesla's bij elkaar om Sint, de pieten, de kado's en strooigoed te vervoeren.

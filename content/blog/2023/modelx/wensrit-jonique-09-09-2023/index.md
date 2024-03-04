@@ -3,6 +3,7 @@ title: "Wensrit Jonique september 2023"
 date: 2023-09-17T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 
 **(Dutch content)** Vanuit Stichting Dag met een Lach was er een oproep om Jonique in Apeldoorn samen met haar klasgenoten een hele mooie 18de verjaardag te laten beleven. 

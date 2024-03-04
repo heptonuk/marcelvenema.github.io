@@ -3,6 +3,7 @@ title: "Droomautodag zomer 2023"
 date: 2023-07-14T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 
 **(Dutch content)** Zaterdag 8 juli was de droomautodag (https://droomautodag.nl) georganiseerd door DFCharity, waarbij kinderen tussen 6 en 16 jaar oud met een vervelende ziekte een dag autoritten met droomauto's konden maken op het circuit in Meppen (D), vlak over de grens bij Emmen. Ik was er bij met de Tesla Model X Plaid. 

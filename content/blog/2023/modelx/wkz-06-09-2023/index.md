@@ -3,6 +3,7 @@ title: "Wensrit WKZ september 2023"
 date: 2023-09-09T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 
 **(Dutch content)** Vanuit Stichting Dag met een Lach kwam het verzoek of we willen assisteren om patientjes van het Wilhelmina Kinderziekenhuis op woensdag 6 september 2023 een hele mooie middag kunnen bezorgen. 

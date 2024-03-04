@@ -3,6 +3,7 @@ title: "Wensrit Luna september 2023"
 date: 2023-09-07T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 
 **(Dutch content)** Zaterdag 2 september 2023 vertrokken naar het oostelijke Aalten, Gelderland. Hier hebben we Luna en haar familie een hele grote lach op haar gezicht kunnen bezorgen. 

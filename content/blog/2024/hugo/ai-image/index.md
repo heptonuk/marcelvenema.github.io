@@ -3,6 +3,7 @@ title: "AI image"
 date: 2024-03-01T07:00:00+01:00
 draft: true
 tags: ["hugo"]
+author: "marcelvenema"
 ---
 With a new blog post about moving to the Hugo static website generator, a new image with this blog is also needed. But how do I create or find this image?
 

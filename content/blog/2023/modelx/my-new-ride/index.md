@@ -3,6 +3,7 @@ title: "My new ride"
 date: 2023-04-15T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 Finally, dreams come true, I am the proud owner of a Tesla Model X Plaid! After waiting more than two years, I got an SMS from Tesla the car could be picked up from the Tesla Delivery Center in Tilburg, The Netherlands on March, 23rd.
 

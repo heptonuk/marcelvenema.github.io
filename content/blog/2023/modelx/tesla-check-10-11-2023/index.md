@@ -3,6 +3,7 @@ title: "Tesla Service Center check"
 date: 2023-11-10T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 
 Alvorens naar het circuit van de wintereditie van de [droomautodag](https://droomautodag.nl) te gaan, een korte pitstop bij het Tesla Service Center om nog even de belangrijkste onderdelen van de Tesla Model X te controleren.  

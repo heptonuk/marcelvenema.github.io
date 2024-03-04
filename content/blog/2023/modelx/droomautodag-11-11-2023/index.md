@@ -3,6 +3,7 @@ title: "Droomautodag winter 2023"
 date: 2023-11-22T09:00:00+01:00
 draft: true
 tags: ["modelx"]
+author: "marcelvenema"
 ---
 
 Weer terug in Meppen, Duitsland voor de [Droomautodag](https://droomautodag.nl), tweemaal per jaar georganiseerd door DFCharity, voor kinderen die wel wat extra aandacht kunnen gebruiken.
