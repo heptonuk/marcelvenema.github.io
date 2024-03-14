@@ -2,7 +2,7 @@ baseURL = 'https://marcelvenema.github.io'
 languageCode = 'en-us'
 title = 'MarcelVenema'
 theme = "m10c"
-paginate = 20
+paginate = 40
 
 
 [params]
