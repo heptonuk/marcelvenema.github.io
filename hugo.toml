@@ -1,48 +1,47 @@
 baseURL = 'https://marcelvenema.github.io'
 languageCode = 'en-us'
-title = 'MarcelVenema'
-theme = "m10c"
-paginate = 40
-
+title = 'MarcelVenema.com'
+theme = "marcelvenema"
 
 [params]
-  author = "Marcel Venema"
-  description = "A blog about all things technical."
+    links = ["Blogs", "Training", "Tools", "About"]
+    authorName = "Marcel Venema"
+    authorImage = "img/author.jpg"
+    favicon = "/img/favicon.png"
+    headerLogo = "/img/logo1.webp"
+    headerImage = "/img/main.webp"
+    paginate = 4
+    aboutImageR = "/img/main/about.webp"
+    aboutImageL = "/img/main/tools.webp"
+    subscriptionText = "SUBSCRIBE VIA EMAIL"
+    subscriptionBtnText = "Subscribe Now"
+    subscriptionPlaceholder = "Email Address"
+    copyrightText = "All rights reserved."
+    email = "marcel@marcelvenema.com"
+    mainSections = ["blogs"]
 
-  [[params.social]]
-    icon = "github"
-    name = "GitHub"
-    url = "https://github.com/MarcelVenema"
 
+socials = [     
+    {name = "linkedin", username = "in/marcelvenema"},       
+    {name = "twitter", username = "marcel_venema"},     
+]
 
-[menus]
+placeholder = [
+    {views = "5", likes = "4"}
+]
 
-[[menu.main]]
-  identifier = "home"
-  name = "Home"
-  pageRef = "/"
-  weight = 10
+comments = [
+    {repo = "mansoorbarri/website", theme = "github-light", title = "title"}
+]
 
-[[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  pageRef = "/blog"
-  weight = 20
+# For tiles in /training
+tiles = [ 
+    {title = "Maatwerk", content = "In overleg zijn ook maatwerk-trainingen mogelijk waarbij de aangeboden lesstof naadloos aansluit op de behoefte van de cursisten. Als les- en studiemateriaal ontvangt de cursist een USB-stick of portable USB harddisk met virtuele machines en trainingsmateriaal."},
 
-[[menu.main]]
-  identifier = "training"
-  name = "Training"
-  pageRef = "/training"
-  weight = 30
+    {title = "On-Site training", content = "Bij een on-site training vindt de cursus plaats bij het bedrijf of instelling op locatie. Voor de training is enkel een vergaderruimte met whiteboard en beamer benodigd.<br> De cursisten dienen te beschikken over een eigen werkstation of notebook, bij voorkeur Intel i5 processor of hoger met 16GB intern geheugen en 40GB vrije diskruimte. In overleg kan ik ook een beamer of de cursist notebooks verzorgen."},
 
-[[menu.main]]
-  identifier = "tools"
-  name = "Tools"
-  pageRef = "/tools"
-    weight = 40
+    {title = "Cursustijden", content = "De cursustijden zijn in overleg. Naast de reguliere ochtend-middag training (09:30 - 16:00 uur) is ook een middag-avond training (13.30 - 20.30 uur) mogelijk. <br> In principe worden meerdaagse trainingen eenmaal per week gehouden, van een vierdaagse training is de doorlooptijd vier weken waarbij bijvoorbeeld de maandag de trainingsdag is. De cursist krijgt in de tussenliggende periode de mogelijkheid om het geleerde in praktijk te brengen en de volgende trainingsdag vragen te stellen."}
+]
 
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  pageRef = "/about"
-  weight = 50
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

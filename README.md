@@ -21,9 +21,6 @@ hugo new site quickstart
 ```
 
 
-
-
-
 ## Firewall local Hugo server
 ```
 sudo firewall-cmd --add-port=1313/tcp
@@ -31,5 +28,6 @@ sudo firewall-cmd --runtime-to-permanent
 ```
 
 ## Git submodules
-git submodule add https://github.com/vaga/hugo-theme-m10c.git site/themes/m10c
+git submodule add https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+git submodule add git@github.com:marcelvenema/hugo-theme-marcelvenema-com.git themes/marcelvenema
 
