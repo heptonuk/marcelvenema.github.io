@@ -2,3 +2,6 @@
 	path = themes/m10c
 	url = https://github.com/vaga/hugo-theme-m10c.git
 
+[submodule "themes/marcelvenema"]
+	path = themes/marcelvenema
+	url = git@github.com:marcelvenema/hugo-theme-marcelvenema-com.git
