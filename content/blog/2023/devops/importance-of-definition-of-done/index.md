@@ -1,9 +1,13 @@
 ---
 title: "The importance of having a Definition of Done"
+description: ""
 date: 2023-03-04T09:00:00+01:00
+images: ["title.jpg"]
 draft: true
+categories: ["blog"]
 tags: ["devops"]
-author: "marcelvenema"
+keywords: [""]
+authors: ["Marcel Venema"]
 ---
 As a DevOps engineer, having a clear definition of done is important for several reasons.  Also as a DevOps engineer, you want to code and minimize administration. Having participated in multiple projects at multiple companies, I can only give one piece of advice: Have a Definition of Done!
 

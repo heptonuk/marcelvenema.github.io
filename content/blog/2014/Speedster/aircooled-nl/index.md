@@ -1,6 +1,7 @@
 ---
 title: "Aircooled.nl"
 date: 2014-08-09T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Speedster"]
 author: "marcelvenema"

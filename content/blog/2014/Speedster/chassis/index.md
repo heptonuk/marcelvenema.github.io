@@ -1,6 +1,7 @@
 ---
 title: "Hoera, een chassis!"
 date: 2014-08-22T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Speedster"]
 author: "marcelvenema"

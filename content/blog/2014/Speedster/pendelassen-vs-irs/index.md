@@ -1,6 +1,7 @@
 ---
 title: "Pendelassen versus IRS"
 date: 2014-09-07T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Speedster"]
 author: "marcelvenema"

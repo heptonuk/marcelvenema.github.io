@@ -1,6 +1,7 @@
 ---
 title: "Veel werk met het chassis"
 date: 2014-10-19T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Speedster"]
 author: "marcelvenema"

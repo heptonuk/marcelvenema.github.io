@@ -1,9 +1,12 @@
 ---
 title: "SSL/TLS error with Nutanix Prism web console"
 date: 2023-05-12T09:00:00+01:00
+images: ["title.jpg"]
 draft: true
+categories: ["blog"]
 tags: ["nutanix"]
-author: "marcelvenema"
+keywords: [""]
+authors: ["Marcel Venema"]
 ---
 
 If you get an SSL/TLS error when accessing the Nutanix Prism Elements or  Prism Central web console, there is a good chance you updated your Chromium-based browser recently.

@@ -1,6 +1,7 @@
 ---
 title: "RES RSVP meeting"
 date: 2013-12-31T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["RES Software"]
 author: "marcelvenema"

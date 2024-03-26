@@ -1,6 +1,7 @@
 ---
 title: "Happy holidays"
 date: 2013-12-23T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: []
 author: "marcelvenema"

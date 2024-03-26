@@ -1,6 +1,7 @@
 ---
 title: "Information is the key"
 date: 2014-03-04T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["RES Software"]
 author: "marcelvenema"

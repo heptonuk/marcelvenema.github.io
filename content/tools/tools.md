@@ -5,7 +5,6 @@ url: "/tools/"
 type: page
 ---
 
-{{< tools >}}
+
 
 ### Blogs I Read
-{{< blogs >}}

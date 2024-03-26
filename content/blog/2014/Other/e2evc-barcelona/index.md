@@ -1,6 +1,7 @@
 ---
 title: "E2Evc Barcelona 2014"
 date: 2014-11-04T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: []
 author: "marcelvenema"

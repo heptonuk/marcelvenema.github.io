@@ -1,9 +1,12 @@
 ---
 title: "How to win the 2048 game"
 date: 2023-04-07T09:00:00+01:00
+images: ["title.jpg"]
 draft: true
+categories: ["blog"]
 tags: ["nutanix"]
-author: "marcelvenema"
+keywords: [""]
+authors: ["Marcel Venema"]
 ---
 
 The 2048 game is a popular single-player puzzle game played on a 4x4 grid and included in the Nutanix Prism Element or Prism Central web console.  It can be reached via the drop-down list menu 'Nothing To Do?' of the user in the upper right corner of the console. The objective of the game is to slide and merge numbered tiles on the grid to reach the 2048 tile. Here is the strategy for how to win the game.

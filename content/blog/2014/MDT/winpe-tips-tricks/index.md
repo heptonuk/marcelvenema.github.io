@@ -1,6 +1,7 @@
 ---
 title: "Deployment Toolkit WinPE: Tips & Tricks"
 date: 2014-11-24T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Deployment"]
 author: "marcelvenema"

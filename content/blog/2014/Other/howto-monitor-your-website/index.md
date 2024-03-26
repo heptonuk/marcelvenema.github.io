@@ -1,6 +1,7 @@
 ---
 title: "How to monitor your website"
 date: 2014-02-21T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: []
 author: "marcelvenema"

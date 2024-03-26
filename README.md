@@ -31,3 +31,6 @@ sudo firewall-cmd --runtime-to-permanent
 git submodule add https://github.com/vaga/hugo-theme-m10c.git themes/m10c
 git submodule add git@github.com:marcelvenema/hugo-theme-marcelvenema-com.git themes/marcelvenema
 
+
+https://www.noorix.com.au/blog/how-to/static-website-hugo-bootstrap-serverless-2/
+

@@ -1,6 +1,7 @@
 ---
 title: "Arcadie for Apple iPad mini"
 date: 2014-02-18T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Speedster"]
 author: "marcelvenema"

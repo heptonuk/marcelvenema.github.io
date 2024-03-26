@@ -1,6 +1,7 @@
 ---
 title: "Reset password of Citrix License Management Console"
 date: 2014-08-31T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Citrix"]
 author: "marcelvenema"

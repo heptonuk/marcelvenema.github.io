@@ -1,9 +1,13 @@
 ---
 title: "Hugo Markdown cheat sheet"
+description: ""
 date: 2024-03-14T06:00:00+01:00
+images: ["title.jpg"]
 draft: false
+categories: ["blog"]
 tags: ["hugo"]
-author: "marcelvenema"
+keywords: [""]
+authors: ["Marcel Venema"]
 ---
 A blog-to-self as an reminder for a Hugo markdown cheat sheet, so I can use the styles for my blog posts.
 

@@ -1,9 +1,13 @@
 ---
 title: "Moved over to Hugo!"
+description: ""
 date: 2024-03-01T06:00:00+01:00
+images: ["img/title.jpg"]
 draft: false
+categories: ["blog"]
 tags: ["hugo"]
-author: "marcelvenema"
+keywords: [""]
+authors: ["Marcel Venema"]
 ---
 
 As an infrastructure-as-code guy, I feel somewhat obliged to also have a website-as-code and practice what you preach. The old MarcelVenema.com website lasts forever and last year I did not make many blog posts, so as a small side project during the cold February evenings I decided to give it a go. And as funny as it sounds, it is also a relaxing moment for me to compensate for the current chaotic business hours. 

@@ -1,6 +1,7 @@
 ---
 title: "Problem Steps Recorder"
 date: 2013-12-22T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Windows"]
 author: "marcelvenema"

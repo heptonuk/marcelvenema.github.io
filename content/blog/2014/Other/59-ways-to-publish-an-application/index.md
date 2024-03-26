@@ -1,6 +1,7 @@
 ---
 title: "Color logon background"
 date: 2014-01-17T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["packaging"]
 author: "marcelvenema"

@@ -1,6 +1,7 @@
 ---
 title: "New blog, new site, old stress..."
 date: 2013-12-15T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: []
 author: "marcelvenema"

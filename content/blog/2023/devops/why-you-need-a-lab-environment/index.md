@@ -1,9 +1,13 @@
 ---
 title: "Why you need a lab environment"
+description: ""
 date: 2023-04-22T09:00:00+01:00
+images: ["title.jpg"]
 draft: true
+categories: ["blog"]
 tags: ["nutanix"]
-author: "marcelvenema"
+keywords: [""]
+authors: ["Marcel Venema"]
 ---
 
  DevOps engineers play a vital role in the infrastructure and software development process, where they work closely with the development and operations teams to streamline the delivery pipeline. A DevOps engineer needs to ensure that the infrastructure development process is efficient, automated, and scalable. One of the essential tools that a DevOps engineer needs to have is a lab environment.

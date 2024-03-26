@@ -1,6 +1,7 @@
 ---
 title: "Community Cloud"
 date: 2014-01-12T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: []
 author: "marcelvenema"

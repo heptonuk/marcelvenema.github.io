@@ -11,6 +11,6 @@ Ik ben geen fulltime trainer, normaal gesproken ben ik ongeveer 80% van mijn tij
 
 ![](/img/main/training.webp)
 
-{{< tiles >}}
+
 
 

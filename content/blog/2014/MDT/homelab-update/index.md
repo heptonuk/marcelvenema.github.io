@@ -1,6 +1,7 @@
 ---
 title: "Homelab update"
 date: 2014-08-02T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: []
 author: "marcelvenema"

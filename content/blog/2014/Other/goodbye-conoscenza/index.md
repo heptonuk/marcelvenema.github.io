@@ -1,6 +1,7 @@
 ---
 title: "Goodbye Conoscenza, Hello MarcelVenema.com"
 date: 2014-05-02T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Powershell"]
 author: "marcelvenema"

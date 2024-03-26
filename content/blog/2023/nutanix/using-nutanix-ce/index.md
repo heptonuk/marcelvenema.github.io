@@ -1,9 +1,12 @@
 ---
 title: "Lab: Using Nutanix CE"
 date: 2023-04-28T09:00:00+01:00
+images: ["title.jpg"]
 draft: true
+categories: ["blog"]
 tags: ["nutanix"]
-author: "marcelvenema"
+keywords: [""]
+authors: ["Marcel Venema"]
 ---
 
 Nutanix CE (Community Edition) is a free, community-supported version of Nutanix's enterprise cloud platform. 

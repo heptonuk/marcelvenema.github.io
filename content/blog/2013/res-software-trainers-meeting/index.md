@@ -1,6 +1,7 @@
 ---
 title: "RES Software trainers meeting"
 date: 2013-12-18T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["RES Software"]
 author: "marcelvenema"

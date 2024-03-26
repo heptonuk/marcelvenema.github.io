@@ -1,6 +1,7 @@
 ---
 title: "Bouten, moeren en bevestigingsmaterialen"
 date: 2014-10-25T09:00:00+01:00
+images: ["title.jpg"]
 draft: false
 tags: ["Speedster"]
 author: "marcelvenema"
