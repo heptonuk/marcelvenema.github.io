@@ -13,7 +13,7 @@ With a new blog post about moving to the Hugo static website generator, a new im
 
 <!--more-->
   
-![AI image](ai-image.jpg)
+![AI image](img/ai-image.jpg)
 &nbsp;  
 
 Artifical Intelligence to the rescue! 
@@ -28,7 +28,8 @@ create a photorealistic 16:9 format picture with a curvy road from bottom left t
 
 create a photorealistic long mover van with a lot of papers, pictures, car parts, and computer stuff. The van has on top a big sign called 'HUGO' hollywood style.
 
-{{< foldergallery src=img/gallery/ai-image >}}
+{{< gallery match="img/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" embedPreview=true loadJQuery=true />}}
+
 
 https://designer.microsoft.com/home
 
