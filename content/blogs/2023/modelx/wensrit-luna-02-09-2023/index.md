@@ -2,7 +2,7 @@
 title: "Wensrit Luna september 2023"
 author: "Marcel Venema" 
 date: 2023-09-07T09:00:00+01:00
-image: "img/blogs/wensrit-luna-02-09-2023.jpg"
+image: "/img/blogs/wensrit-luna-02-09-2023.jpg"
 rl: "/posts/wensrit-luna-02-09-2023/"
 type: post
 draft: false

@@ -2,7 +2,7 @@
 title: "Sinterklaas Kadowagen"
 author: "Marcel Venema" 
 date: 2023-12-09T09:00:00+01:00
-image: "img/blogs/sint-kadowagen-05-12-2023.jpg"
+image: "/img/blogs/sint-kadowagen-05-12-2023.jpg"
 url: "/posts/sint-kadowagen-05-12-2023/"
 type: post
 draft: false

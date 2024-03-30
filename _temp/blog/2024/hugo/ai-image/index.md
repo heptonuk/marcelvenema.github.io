@@ -2,7 +2,7 @@
 title: "AI image"
 author: "Marcel Venema" 
 date: 2024-03-01T07:00:00+01:00
-image: "img/blogs/ai-image.jpg"
+image: "/img/blogs/ai-image.jpg"
 url: "/posts/ai-image/"
 type: post
 draft: false

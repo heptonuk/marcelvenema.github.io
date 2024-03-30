@@ -2,7 +2,7 @@
 title: "SSL/TLS error with Nutanix Prism webconsole"
 author: "Marcel Venema" 
 date: 2023-05-12T09:00:00+01:00 
-image: "img/blogs/ssl-error-with-nutanix-prism-webconsole.jpg"
+image: "/img/blogs/ssl-error-with-nutanix-prism-webconsole.jpg"
 url: "/posts/ssl-error-with-nutanix-prism-webconsole/"
 draft: false
 type: post

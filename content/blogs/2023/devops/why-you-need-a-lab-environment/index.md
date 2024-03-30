@@ -2,7 +2,7 @@
 title: "Why you need a lab environment"
 author: "Marcel Venema" 
 date: 2023-04-22T09:00:00+01:00
-image: "img/blogs/why-you-need-a-lab-environment.jpg"
+image: "/img/blogs/why-you-need-a-lab-environment.jpg"
 url: "/posts/why-you-need-a-lab-environment/"
 type: post
 draft: false

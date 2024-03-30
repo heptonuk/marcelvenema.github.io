@@ -2,7 +2,7 @@
 title: "Wensrit Jonique september 2023"
 author: "Marcel Venema" 
 date: 2023-09-17T09:00:00+01:00
-image: "img/blogs/wensrit-jonique-09-09-2023.jpg"
+image: "/img/blogs/wensrit-jonique-09-09-2023.jpg"
 url: "/posts/wensrit-jonique-09-09-2023/"
 type: post
 draft: false

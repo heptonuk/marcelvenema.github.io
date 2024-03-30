@@ -2,7 +2,7 @@
 title: "Droomautodag zomer 2023"
 author: "Marcel Venema" 
 date: 2023-07-14T09:00:00+01:00
-image: "img/blogs/droomautodag-08-07-2023.jpg"
+image: "/img/blogs/droomautodag-08-07-2023.jpg"
 url: "/posts/droomautodag-08-07-2023"
 draft: false
 tags: ["ModelX"]  

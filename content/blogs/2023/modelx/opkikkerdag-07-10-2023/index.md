@@ -2,7 +2,7 @@
 title: "Opkikkerdag oktober 2023"
 author: "Marcel Venema" 
 date: 2023-10-14T09:00:00+01:00
-image: "img/blogs/opkikkerdag-07-10-2023.jpg"
+image: "/img/blogs/opkikkerdag-07-10-2023.jpg"
 url: "/posts/opkikkerdag-07-10-2023/"
 draft: false
 type: post

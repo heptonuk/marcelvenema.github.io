@@ -2,7 +2,7 @@
 title: "Wensrit Miranda september 2023"
 author: "Marcel Venema" 
 date: 2023-10-07
-image: "img/blogs/wensrit-miranda-30-09-2023.jpg"
+image: "/img/blogs/wensrit-miranda-30-09-2023.jpg"
 url: "/posts/wensrit-miranda-30-09-2023/"
 type: post
 draft: false

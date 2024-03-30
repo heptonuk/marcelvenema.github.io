@@ -2,7 +2,7 @@
 title: "Lab: Using Nutanix CE"
 author: "Marcel Venema" 
 date: 2023-04-28T09:00:00+01:00
-image: "img/blogs/using-nutanix-ce.jpg"
+image: "/img/blogs/using-nutanix-ce.jpg"
 url: "/posts/using-nutanix-ce/"
 draft: false
 type: post

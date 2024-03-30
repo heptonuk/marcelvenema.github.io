@@ -2,7 +2,7 @@
 title: "Wensrit WKZ september 2023"
 author: "Marcel Venema" 
 date: 2023-09-09T09:00:00+01:00
-image: "img/blogs/wensrit-wkz-06-09-2023.jpg"
+image: "/img/blogs/wensrit-wkz-06-09-2023.jpg"
 url: "/posts/wensrit-wkz-06-09-2023"
 type: post
 draft: false

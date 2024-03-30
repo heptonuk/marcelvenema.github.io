@@ -2,7 +2,7 @@
 title: "Tesla Service Center check"
 author: "Marcel Venema" 
 date: 2023-11-10T09:00:00+01:00
-image: "img/blogs/tesla-check-10-11-2023.jpg"
+image: "/img/blogs/tesla-check-10-11-2023.jpg"
 url: "/posts/tesla-check-10-11-2023/"
 type: post
 draft: false
