@@ -1,0 +1,22 @@
+<!-- links & footer -->
+<div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            {{- partial "subscription.html" . -}}
+            <div class="footerborder"></div>
+            <br>
+            <div class="footericon">
+                {{ range .Site.Params.socials }}
+                <a href="https://{{ .name }}.com/{{ .username }}" target="_blank">
+                    <i class="fa-brands fa-{{ .name }}"></i>
+                </a>
+                    {{ end }}
+            </div>
+            <br>
+            <center><div class="footercopyright"><p>© 2023 {{ .Site.Params.title }}. {{ .Site.Params.copyrightText }}</p></div></center>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

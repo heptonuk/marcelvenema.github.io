@@ -1,0 +1,31 @@
+{{ $posts := where .Site.Pages "Params.type" "post" }}
+<div class="">
+    <div class="row">
+        <style>
+            .RecentPosts{
+                display: flex;
+                justify-content: center;
+                width: 28%;
+            }
+        </style>
+        <div class="col-md-1"></div>
+        {{ range $posts.ByDate.Reverse | first 3 }}
+        <div class="col-md-3 RecentPosts">
+            <div class="card recentpost" style="width: 100%; height:100%;">
+                <img src="{{ .Params.image }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+                    <hr>
+                    <small>
+                        {{ range .Params.tags }}
+                        <a href="{{ printf "/tags/%s" . | urlize }}">{{ . }}</a>
+                        {{ end }}
+                    </small>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+        <div class="col-md-1"></div>
+       
+    </div>
+</div>

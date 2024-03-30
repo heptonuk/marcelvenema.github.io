@@ -1,29 +1,29 @@
 [[main]]
 name = "HOME"
-url = ""
+url = "/"
 weight = 10
 
 [[main]]
-identifier = "blog"
+identifier = "blogs"
 name = "BLOG"
-url = "blog"
+url = "/blogs"
 weight = 20
 
 [[main]]
 identifier = "training"
 name = "TRAINING"
-url = "training"
+url = "/training"
 weight = 30
 
 [[main]]
 identifier = "tools"
 name = "TOOLS"
-url = "page"
+url = "/page"
 weight = 40
 
 [[main]]
 name = "ABOUT"
-url = "about"
+url = "/about"
 weight = 50
 # title = "Made with ❤️ by the Hugo Bootstrap Theme team"
 

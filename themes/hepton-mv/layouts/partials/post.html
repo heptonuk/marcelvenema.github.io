@@ -1,0 +1,74 @@
+<!-- blog detail -->
+    <!-- Blogs -->
+    <div>
+        <div class="container">
+            <div class="row">
+                {{- partial "post-header" . -}}
+            </div>
+        </div>
+    </div>
+<div>
+    <div class="container">
+        <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10  blogdetailmain">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 pt-5 pb-5">
+                            <div>
+                                <div class="blogdetail">
+                                    <img src="{{ .Site.Params.authorImage | relURL }}" alt="">
+                                    <p>{{ .Params.author }} <i class="fa-solid fa-crown"></i></p>
+                                    <p>&bull;</p>
+                                    <p>{{ .Date.Format "January 2, 2006" }} &bull; {{ .ReadingTime }} Min </p>
+                                </div>
+                                <br>
+                                <h1><b>{{ .Title }}</b></h1>
+                                <small>{{ T "article.lastUpdatedOn" }} {{ .Lastmod.Format ( or .Site.Params.dateFormat.lastUpdated "Jan 02, 2006" ) }}
+                                    <small>
+                                <br><br>
+                                <p class="blogdetail1">
+                                    {{ .Content }}
+                                </p>
+                                <hr>
+                                <div class="blogdetail3">
+                                    <div class="blogdetail4">
+                                        <a href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>                                        
+                                        <a href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener"><i class="fa-solid fa-x"></i></a>
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fsharingbuttons.io&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;summary=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;source=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="javascript:void(0);" onclick="copyPageUrl()"><i class="fa-solid fa-link"></i></a>
+                                        <script>
+                                            function copyPageUrl() {
+                                                var dummy = document.createElement("textarea");
+                                                document.body.appendChild(dummy);
+                                                dummy.value = window.location.href;
+                                                dummy.select();
+                                                document.execCommand("copy");
+                                                document.body.removeChild(dummy);
+                                                alert("Page URL copied to clipboard: " + window.location.href);
+                                            }
+                                        </script>
+                                    </div>
+                                    <div class="bloglinks mt-2">
+                                        <p class="blogdetail5">
+                                            {{ range .Params.tags }}
+                                            <a href="{{ printf "/tags/%s" . | urlize }}">{{ . }}</a>
+                                            {{ end }}
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <hr>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <br><br>
+            {{- partial "recent" . -}}  
+
+            {{- partial "comments" . -}}
+            

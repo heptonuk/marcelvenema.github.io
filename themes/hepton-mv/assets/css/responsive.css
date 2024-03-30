@@ -1,0 +1,97 @@
+@media screen AND (max-width:700px) {
+    /* navbar */
+    .navv{
+        padding: 2%;
+    }
+    .navicon{
+        display: none;        
+    }
+    .naviconresponsive{
+        display: block;
+    } 
+    .navheading1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        width: 70%;        
+        margin-top: 7%;
+        border: 5px solid black;
+    }
+    .navheading1 a{
+        display: flex;
+    }
+    .navheading1 a img{
+        width: 95%;
+    }
+    .navvv{
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    /* homebtn */
+    .cardbtn a{
+        width: 50%;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+    .cardbtn a button{
+        width: 50%;
+        background-color: black;
+        color: white;
+    }
+
+    /* homeabout */
+    .homeabout1{
+        display: block;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+    .imgres {
+        display: flex;
+        justify-content: center;
+    }
+    .homeabout1 img{
+        width: 80%;
+    }
+    .homeabout2{
+        margin-left: 10%;
+    }
+
+    /* subscription */
+    .subscribe{
+        display: block;
+    }
+    .subscribe h5{
+        display: flex;
+        justify-content: center;
+    }
+    .subscribe1{
+        width: 100%;
+    }
+
+    /* footer */
+    .footericon{
+        display: flex;
+        justify-content: center;
+    }
+    .footerborder{
+        display: none;
+    }
+    .footericon a{
+        margin-top: -15px;
+        margin-right: 2%;
+    }
+    .footericon a i{
+        font-size: 25px;
+    }
+    .footercopyright p{
+        font-size: 13px;
+        color: grey;
+    }
+}

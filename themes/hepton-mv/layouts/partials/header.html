@@ -1,0 +1,53 @@
+    <!-- Navbar -->
+    <div>
+        <div class="container navv pb-5">
+            <div class="row navbarmain">
+                <div class="col-md-1"></div>
+                <div class="col-md-1 naviconresponsive bg-info">
+                    {{ range .Site.Params.socials }}
+                    <a href="https://{{ .name }}.com/{{ .username }}" target="_blank">
+                        <i class="fa-brands fa-{{ .name }}"></i>
+                    </a>
+                    {{ end }}                    
+                </div>
+                <div class="col-md-4 navmain">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 m-0">
+                        <div class="container-fluid m-0 p-0 navbartext">
+                            <div>
+                            <button class="navbar-toggler navresbtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                            </button>
+                            <br>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                {{ range .Site.Menus.main }}
+                                <div class="navbar-nav">
+                                    <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                                {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-4 navheading1">
+                    <a href=""><img src="{{ .Site.Params.headerLogo }}" class="img-fluid" alt=""></a> 
+                </div>
+                <div class="col-md-1 navicon">
+                    {{ range .Site.Params.socials }}
+                    <a href="https://{{ .name }}.com/{{ .username }}" target="_blank">
+                        <i class="fa-brands fa-{{ .name }}"></i>
+                    </a>
+                    {{ end }}                    
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <div class="row navvv">
+                <div class="col-md-1"></div>
+                <div class="col-md-12">
+                    <img src="{{ .Site.Params.headerImage }}" width="100%" alt="" />
+                </div>
+                <!-- <div class="col-md-1"></div> -->
+            </div>
+        </div>
+    </div>

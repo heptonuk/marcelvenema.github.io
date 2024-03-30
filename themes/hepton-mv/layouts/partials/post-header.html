@@ -1,0 +1,29 @@
+<div class="col-md-6 blogfilter">
+    <ul>
+        <li><a href="{{ "blogs" | relURL }}">All posts</a></li>
+        {{ $count := 0 }}
+        {{ $dropdownTags := slice }}
+        {{ range $tag, $taxonomy := .Site.Taxonomies.tags }}
+            {{ if lt $count 4 }}
+                <li><a href="{{ $.Site.BaseURL }}tags/{{ $tag | urlize }}">{{ $tag }}</a></li>
+                {{ $count = add $count 1 }}
+            {{ else }}
+                {{ $dropdownTags = $dropdownTags | append $tag }}
+            {{ end }}
+        {{ end }}
+        {{ if gt (len $dropdownTags) 0 }}
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                <ul class="dropdown-menu blogdrop" id="dropdownMenu">
+                    {{ range $dropdownTags }}
+                        <li><a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a></li>
+                    {{ end }}
+                </ul>
+            </li>
+        {{ end }}
+    </ul>
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-3">
+    {{- partial "search" . -}} 
+</div>

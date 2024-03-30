@@ -1,0 +1,24 @@
+- blogs:
+  - left: 
+    - name: AndrewMorgan.ie
+      link: https://andrewmorgan.ie/
+      description: From the creator of ThinKiosk...
+    - name: E2Evc.com
+      link: https://e2evc.com/home/
+      description: Former PubForum, famous by Alex Juschin's dynamic agenda....
+    - name: ITStore-guru.com
+      link: http://itstore-guru.com/
+      description: RES ONE products related blog of Chris Jeucken.
+
+  - middle: 
+    - name: VanBragt.net
+      link: https://virtualization.vanbragt.net/
+      description: Daily news from Wilco van Bragt
+    - name: Workspace-Guru.com
+      link: https://workspace-guru.com/
+      description: Blog from Chris Twiest.
+      
+  - right: 
+    - name: RobinPlomp.com
+      link: https://robinplomp.com/
+      description: Great info about VMWare and Ivanti products.

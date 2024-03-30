@@ -1,0 +1,44 @@
+<!-- blogs -->
+<div>
+    <div class="">
+        <div class="row">
+            {{ range .Site.Data.blogs }}
+            <div class="col-md-4">
+                {{ range .blogs }}
+                {{ range .left }}
+                <div class="tool3">
+                    <b><a href="{{ .link }}">{{ .name }}</a></b>
+                    <p>{{ .description }}</p>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ end }}
+            {{ range .Site.Data.blogs }}
+            <div class="col-md-4">
+                {{ range .blogs }}
+                {{ range .middle }}
+                <div class="tool3">
+                    <b><a href="{{ .link }}">{{ .name }}</a></b>
+                    <p>{{ .description }}</p>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ end }}
+            {{ range .Site.Data.blogs }}
+            <div class="col-md-4">
+                {{ range .blogs }}
+                {{ range .right }}
+                <div class="tool3">
+                    <b><a href="{{ .link }}">{{ .name }}</a></b>
+                    <p>{{ .description }}</p>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ end }}
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</div>

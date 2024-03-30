@@ -1,0 +1,5 @@
+<!-- layouts/shortcodes/twitter_profile_widget.html -->
+<div style="float: right; width:361px;">
+    <a class="twitter-timeline" href="https://twitter.com/{{ .Get 0 }}" data-height="{{ with .Get 1 }}{{ . }}{{ else }}450{{ end }}" data-theme="{{ with .Get 2 }}{{ . }}{{ else }}light{{ end }}">Tweets by {{ .Get 0 }}</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>

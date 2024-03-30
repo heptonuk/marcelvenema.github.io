@@ -1,0 +1,11 @@
+<div class="row training">
+    {{ range .Site.Params.tiles }}
+        <div class="col-md-3 training1">
+            <div>
+                <h3>{{ .title }}</h3>
+                {{ .content | safeHTML }}
+            </div>
+        </div>
+    {{ end }}
+</div>
+<br><br>

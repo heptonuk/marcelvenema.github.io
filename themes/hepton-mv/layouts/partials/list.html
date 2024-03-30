@@ -1,0 +1,50 @@
+<!-- Blogs -->
+<div class="container pt-3 pb-3">
+    {{ $paginator := .Paginate (where .Pages "Type" "post") }}
+    {{ range $paginator.Pages }}
+    <div class="card mb-3 cardmain">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="{{ .Params.image }}" class="img-fluid rounded-start" width="100%" alt="...">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body ms-3">
+                    <div class="card1">
+                        <div class="cardimg">
+                            <img src="{{ .Site.Params.authorImage | relURL }}" alt="">
+                        </div>
+                        <div class="card2">
+                            <p>{{ .Params.author }} <i class="fa-solid fa-crown"></i></p>
+                            <p>{{ .Date.Format "January 2, 2006" }} &bull; {{ .ReadingTime }} Min </p>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="{{ .Permalink }}" class="card3">
+                        <h3 class="card-title"><strong>{{ .Params.title }}</strong></h3>
+                        <p class="card-text mb-3">{{ .Summary }}</p>
+                    </a>
+                    <hr>
+                    <p class="card-text cardend1">
+                        <small class="text-muted cardend2">
+                            {{ range .Site.Params.placeholder }}
+                                <span>Views {{ .views }} </span>          
+                                <span>Likes {{ .likes }}</span>
+                            {{ end }}
+                        </small>
+                        {{ range .Params.tags }}
+                        <a href="{{ printf "/tags/%s" . | urlize }}">{{ . }}</a>
+                        {{ end }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}       
+
+    <!-- Pagination -->
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pagination" aria-label="Pagination">
+        {{ template "_internal/pagination.html" . }}
+    </nav>
+    {{ end }}
+</div>

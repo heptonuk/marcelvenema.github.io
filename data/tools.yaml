@@ -1,0 +1,104 @@
+- left:
+  - category: Utilities
+    tools:
+      - name: HelgeKlein.com
+        link: https://helgeklein.com/
+        description: Great tools from Helge like SetAcl, DelProf2 and the uberagent for Splunk.
+      - name: WinDirStat
+        link: https://windirstat.net/
+        description: Find those lost hidden huge files you want to delete.
+      - name: Rufus
+        link: https://rufus.ie/en/
+        description: Create bootable USB drives the easy way.
+
+  - category: Programming
+    tools:
+      - name: NimbleText
+        link: https://nimbletext.com/
+        description: Regular Expressions made easy. period.
+      - name: Postman
+        link: https://www.postman.com/
+        description: REST/API programming....
+      - name: Swagger
+        link: https://swagger.io/
+        description: REST/API framework....
+      - name: Rohitab
+        link: http://www.rohitab.com/
+        description: REST/API monitor
+
+  - category: Graphics
+    tools: 
+      - name: IcoFX.ro
+        link: https://www.icofx.ro/
+        description: Not free, but the best icon editor there is.
+      - name: Paint.NET
+        link: https://getpaint.net/#google_vignette
+        description: The Paint program Microsoft forgot. Almost complete PhotoShop functionality and free.
+      - name: Remote Display Analyzer
+        link: https://rdanalyzer.com/
+        description: Show different ICA display modes live!
+      - name: GPU-Z
+        link: https://www.techpowerup.com/gpuz/
+        description: See all information about your GPU
+
+  - category: Internet
+    tools: 
+      - name: Archive.org WayBackMachine
+        link: https://archive.org/web/
+        description: How did the Microsoft web site look back in 1996?
+      - name: ZamZar
+        link: https://www.zamzar.com/
+        description: Online file conversion.
+      - name: Websiteplanet
+        link: https://www.websiteplanet.com/
+        description: Online image compression and other tools.
+      - name: Kahoot!
+        link: https://kahoot.com/blog/
+        description: Create fun learning games.
+
+
+- right:
+  - category: Networking
+    tools:
+      - name: Fidler
+        link: https://www.telerik.com/fiddler
+        description: tool for debugging http(s) traffic.
+      - name: InSSIDer
+        link: https://www.metageek.com/
+        description: Best WiFi scanner.
+      - name: Ubiquiti Unify
+        link: https://www.ui.com/introduction
+        description: Very cool software defined networking
+      - name: Clumsy
+        link: https://jagt.github.io/clumsy/
+        description: Simulate worse network conditions.
+
+  - category: Admin Tools
+    tools:
+      - name: Hiren's BootCD
+        link: https://www.hiren.info/pages/bootcd
+        description: System Administrator tools to the rescue...
+      - name: Remote Desktop Manager
+        link: https://devolutions.net/
+        description: Not free, but great replacement from Devolutions for the RDCMan tool.
+      - name: SysInternals.com
+        link: https://learn.microsoft.com/en-us/sysinternals/downloads/
+        description: Must-have tools from Mark Russinovich and Bryce Cogswell.
+
+  - category: Printing
+    tools:
+      - name: CutePDF
+        link: https://www.cutepdf.com/products/cutepdf/writer.asp
+        description: Print to PDF file.
+
+  - category: Windows tools
+    tools:
+      - name: Problem Steps Recorder
+        link: https://www.marcelvenema.com/Blog/ArticleID/4
+        description: Great tool for documenting problems, installations and configurations.
+
+  - category: Other
+    tools:
+      - name: 2300+ MS-DOS games
+        link: https://archive.org/details/softwarelibrary_msdos_games
+        description: Remember those good old times... https://archive.org/details/softwarelibrary_msdos_games/v2

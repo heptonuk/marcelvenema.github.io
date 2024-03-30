@@ -1,0 +1,24 @@
+
+<!-- about & tool -->
+<div class="mainhomefooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 homeabout1">
+                <div class="imgres"><img src="{{ .Site.Params.aboutImageR }}" alt=""></div>
+                <div class="homeabout2">
+                    <b>{{ upper .Site.Params.title }}</b>
+                    <p><a href="{{ "about" | relURL }}">About me</a></p>
+                </div>
+            </div>
+            <div class="col-md-5 homeabout1">
+                <div class="imgres"><img src="{{ .Site.Params.aboutImageL }}" alt=""></div>
+                <div class="homeabout2">
+                    <b>TOOLS</b>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <br><br>
+</div>

@@ -1,0 +1,30 @@
+    <!-- CONTACT ME -->
+    <div class="">
+        <div class="row">
+            <div class="col-md-11">
+                <h3>CONTACT ME</h3>
+                <div class="footerborder"></div>
+                <br>
+                <form class="contactform" method="POST" action="https://formspree.io/f/mzbnvjqr">
+                    <input name="name" type="text" placeholder=" Name * ">
+                    <br>
+                    <input name="email" type="email" placeholder=" Email * ">
+                    <br>
+                    <textarea name="message" class="form-control" placeholder="Massage *" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    <div class="contactbtn">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+                <div class="contactend">
+                    <p>{{ .Site.Params.email }}</p>
+                    <div class="footericon">
+                        {{ range .Site.Params.socials }}
+                        <a href="https://{{ .name }}.com/{{ .username }}" target="_blank">
+                            <i class="fa-brands fa-{{ .name }}"></i>
+                        </a>
+                            {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,32 @@
+<br>
+<div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 blogdetailmain ps-3 pe-3">
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10">
+                                    <div>
+                                        <h3>Comment</h3>
+                                    </div>
+                                    <hr>
+                                    {{ range .Site.Params.comments }}
+                                    <script src="https://utteranc.es/client.js"
+                                        repo="{{ .repo}}"
+                                        issue-term="{{ .title }}"
+                                        theme="{{ .theme }}"
+                                        crossorigin="anonymous"
+                                        labels="comments" 
+                                        async>
+                                    </script>
+                                    {{ end }}
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>

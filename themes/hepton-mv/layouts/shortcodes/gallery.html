@@ -1,0 +1,46 @@
+<!--
+Put this file in /layouts/shortcodes/gallery.html
+-->
+<div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+  {{ .Inner }}
+  <div class="title">{{ .Get "title" }}</div>
+</div>
+
+<style>
+.gallery {
+float: none;
+border: 1px solid lightgrey;
+padding: 10px;
+margin: 0px 0px 10px 10px;
+display: flex !important;
+flex-wrap: wrap;
+}
+.gallery .title{
+  text-align: center;
+  clear:left;
+  border-top: 1px solid lightgrey;
+}
+.gallery figure {
+  flex: 1 0 30%; 
+  margin: 0 10px 10px 0;
+}
+.gallery img {
+  width: 110%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1; 
+  padding-right: 30px;
+}
+.gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+.gallery figcaption {
+  display: none;
+}
+figcaption {
+  font-size: 75%;
+}
+</style>
+  

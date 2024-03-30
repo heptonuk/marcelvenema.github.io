@@ -1,50 +1,72 @@
-baseURL = 'https://marcelvenema.github.io/'
-title = "MarcelVenema.com"
-author = "Marcel Venema"
-authorImage = "images/author.jpg"
-copyright = "Open-source <a class=\"text-muted text-decoration-none\" href=\"https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE\">MIT</a> Licensed."
+baseURL = "https://marcelvenema.github.io"
+languageCode = 'en-us'
+theme = ["hepton-mv", "hugo-shortcode-gallery"]
 
-timeZone = 'Europe/London'
+[params]
+    title = "MarcelVenema.com"
+    author = "Marcel Venema"
+    authorImage = "img/author.jpg"
+    favicon = "/img/favicon.png"
+    headerLogo = "/img/logo_MarcelVenema600.png"
+    headerImage = "/img/main.png"
+    paginate = 4
+    aboutImageR = "/img/main/about.webp"
+    aboutImageL = "/img/main/tools.webp"
+    subscriptionText = "SUBSCRIBE VIA EMAIL"
+    subscriptionBtnText = "Subscribe Now"
+    subscriptionPlaceholder = "Email Address"
+    copyrightText = "All rights reserved."
+    email = "marcel@marcelvenema.com"
+    mainSections = ["blogs"]
 
-# Multilingual
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+  socials = [     
+    {name = "linkedin", username = "in/marcelvenema"},       
+    {name = "twitter", username = "marcel_venema"},     
+  ]
+  
+  placeholder = [
+      {views = "5", likes = "4"}
+  ]
+[menu]
+  [[menu.main]]
+    name = "HOME"
+    url = "/"
+    weight = 1
 
-theme = "mv-bootstrap"
+  [[menu.main]]
+    name = "BLOGS"
+    url = "/blogs/"
+    weight = 2
 
-disableHugoGeneratorInject = true
-enableRobotsTXT = true
-enableGitInfo = true
-enableEmoji = true
-#sectionPagesMenu = "main"
-#googleAnalytics = "UA-1511XXXX-X"
+  [[menu.main]]
+    name = "TRAINING"
+    url = "/training/"
+    weight = 3
 
-[frontmatter]
-  date = ["date", "publishDate", "lastmod"]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+  [[menu.main]]
+    name = "TOOLS"
+    url = "/tools/"
+    weight = 4
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  series = 'series'
-  author = "authors"
+  [[menu.main]]
+    name = "ABOUT"
+    url = "/about/"
+    weight = 5
 
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
 
-[permalinks]
-#  post = "/post/:title/"
 
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.99.1"
-    max = ""
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
+comments = [
+    {repo = "mansoorbarri/website", theme = "github-light", title = "title"}
+]
+
+# For tiles in /training
+tiles = [ 
+    {title = "Maatwerk", content = "In overleg zijn ook maatwerk-trainingen mogelijk waarbij de aangeboden lesstof naadloos aansluit op de behoefte van de cursisten. Als les- en studiemateriaal ontvangt de cursist een USB-stick of portable USB harddisk met virtuele machines en trainingsmateriaal."},
+
+    {title = "On-Site training", content = "Bij een on-site training vindt de cursus plaats bij het bedrijf of instelling op locatie. Voor de training is enkel een vergaderruimte met whiteboard en beamer benodigd.<br> De cursisten dienen te beschikken over een eigen werkstation of notebook, bij voorkeur Intel i5 processor of hoger met 16GB intern geheugen en 40GB vrije diskruimte. In overleg kan ik ook een beamer of de cursist notebooks verzorgen."},
+
+    {title = "Cursustijden", content = "De cursustijden zijn in overleg. Naast de reguliere ochtend-middag training (09:30 - 16:00 uur) is ook een middag-avond training (13.30 - 20.30 uur) mogelijk. <br> In principe worden meerdaagse trainingen eenmaal per week gehouden, van een vierdaagse training is de doorlooptijd vier weken waarbij bijvoorbeeld de maandag de trainingsdag is. De cursist krijgt in de tussenliggende periode de mogelijkheid om het geleerde in praktijk te brengen en de volgende trainingsdag vragen te stellen."}
+]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
