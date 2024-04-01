@@ -2,7 +2,7 @@
 title: "Moved over to Hugo!"
 author: "Marcel Venema" 
 date: 2024-03-01T06:00:00+01:00
-image: "img/blogs/moved-over-to-hugo.jpg"
+image: "/img/blogs/moved-over-to-hugo.jpg"
 url: "/posts/moved-over-to-hugo/"
 type: post
 draft: false

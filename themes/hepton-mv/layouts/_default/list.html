@@ -3,9 +3,7 @@
     <div>
         <div class="container">
             <div class="row">
-                <!-- <div class="col-md-1"></div> -->
                 {{- partial "post-header" . -}}
-                <!-- <div class="col-md-1"></div> -->
             </div>
         </div>
     </div>
@@ -14,10 +12,9 @@
     <!-- Blog articles -->
     <div>
         <div class="container">
-            <div class="row">
-                {{ $paginator := .Paginate (where .Pages "Section" "==" "blogs") }}
-                {{ range $paginator.Pages }}
-                <!-- <div class="col-md-1"></div> -->
+            <div class="row ">
+                {{ $posts := where .Site.Pages "Params.type" "post" }}
+                {{ range $posts.ByDate.Reverse | first 4 }}
                 <div class="col-md-5 card-main-1">
                     <div class="card mb-5">
                         <img src="{{ .Params.image }}" class="card-img-top" alt="...">
@@ -37,7 +34,7 @@
                                 <p class="card-text mb-3">{{ .Summary }}</p>
                             </a>
                             <br> <br>
-                            <hr>
+
                             <p class="card-text cardend1">
                                 <small class="text-muted cardend2">
                                     {{ range .Site.Params.placeholder }}
@@ -52,12 +49,21 @@
                         </div>
                     </div>
                 </div>
-                {{ end }}
-                
-<!-- Pagination -->
-{{ if gt $paginator.TotalPages 1 }}
-<nav class="pagination" aria-label="Pagination">
-{{ template "_internal/pagination.html" . }}
-</nav>
-{{ end }}
+                {{ end }}                
+               <!-- Pagination -->
+               <style>
+                 .pagination-container {
+                   display: flex;
+                   justify-content: center;
+                 }
+               </style>
+               <div class="pagination-container">
+                 <nav class="pagination" aria-label="Pagination">
+                   {{ template "_internal/pagination.html" . }}
+                 </nav>
+               </div>
+           </div>
+       </div>
+   </div>
+
 {{ end }}

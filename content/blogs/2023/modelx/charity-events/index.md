@@ -2,7 +2,7 @@
 title: "Charity Events"
 author: "Marcel Venema" 
 date: 2023-06-15T09:00:00+01:00
-image: "img/blogs/charity-events.jpg"
+image: "/img/blogs/charity-events.jpg"
 url: "/posts/charity-events/"
 type: post
 draft: false

@@ -2,7 +2,7 @@
 title: "My New Ride"
 author: "Marcel Venema" 
 date: 2023-04-15T09:00:00+01:00
-image: "img/blogs/my-new-ride.jpg"
+image: "/img/blogs/my-new-ride.jpg"
 url: "/posts/my-new-ride/"
 draft: false
 type: post

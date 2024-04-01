@@ -2,7 +2,7 @@
 title: "The importance of having a Definition of Done"
 author: "Marcel Venema" 
 date: 2023-03-04T09:00:00+01:00
-image: "img/blogs/importance-of-definition-of-done.jpg"
+image: "/img/blogs/importance-of-definition-of-done.jpg"
 url: "/posts/importance-of-definition-of-done/"
 type: post
 draft: false

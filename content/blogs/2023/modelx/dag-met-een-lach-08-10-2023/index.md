@@ -2,7 +2,7 @@
 title: "Dag met een Lach oktober 2023"
 author: "Marcel Venema"
 date: 2023-10-15T09:00:00+01:00
-image: "img/blogs/dag-met-een-lach-08-10-2023.jpg"
+image: "/img/blogs/dag-met-een-lach-08-10-2023.jpg"
 url: "/posts/dag-met-een-lach-08-10-2023/"
 type: post
 draft: false

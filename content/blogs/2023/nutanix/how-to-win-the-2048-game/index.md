@@ -2,7 +2,7 @@
 title: "How to win the 2048 game"
 author: "Marcel Venema" 
 date: 2023-04-07T09:00:00+01:00
-image: "img/blogs/how-to-win-the-2048-game.jpg"
+image: "/img/blogs/how-to-win-the-2048-game.jpg"
 url: "/posts/how-to-win-the-2048-game/"
 draft: false
 type: post

@@ -175,6 +175,11 @@
 }
 
 /* Home card */
+.card-body { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 .cardmain{
     margin-left: 8%;
     margin-right: 8%;
@@ -214,6 +219,11 @@
 .cardend1{
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
+}
+.card-text.cardend1 {
+    border-top: 1px solid #ccc; 
+    padding-top: 10px; 
 }
 .cardend1 i a{
     color: #EE8226;
@@ -568,4 +578,8 @@
     font-size: 15px;
     color: grey;
     margin: 0%;
+}
+
+.pagination {
+    align-items: center;
 }
