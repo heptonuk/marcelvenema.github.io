@@ -54,7 +54,6 @@ theme = ["hepton-mv", "hugo-shortcode-gallery"]
     weight = 5
 
 
-
 comments = [
     {repo = "mansoorbarri/website", theme = "github-light", title = "title"}
 ]
