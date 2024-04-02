@@ -13,7 +13,7 @@
                     {{ range $posts.ByDate.Reverse | first 3 }}
                     <div class="col-md-4 mb-3">
                         <div class="card recentpost" style="width: 20rem;">
-                            <img src="{{ .Params.image }}" class="card-img-top" alt="...">
+                            <img src="{{ .Params.image }}" class="card-img-top" alt="..." height="200px" style="object-fit: cover;"  >
                             <div class="card-body">
                                 <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
                                 <hr>
@@ -21,7 +21,7 @@
                                     <p class="card-text recentpost3">
                                         <small class="cardend2 recentpost1">
                                             {{ range .Site.Params.placeholder }}
-                                            <a href="#" class="recentpost2">
+                                            <a href="#" class="recentpost2" style="display: flex">
                                                 <i class="fa-solid fa-eye pe-1"></i>
                                                 {{ .views }}
                                             </a>
