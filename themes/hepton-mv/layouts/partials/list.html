@@ -1,7 +1,7 @@
 <!-- Blogs -->
+{{ $posts := where .Site.Pages "Params.type" "post" }}
+{{ range $posts.ByDate.Reverse | first .Site.Params.pagination }}
 <div class="container pt-3 pb-3">
-    {{ $paginator := .Paginate (where .Pages "Type" "post") }}
-    {{ range $paginator.Pages }}
     <div class="card mb-3 cardmain">
         <div class="row g-0">
             <div class="col-md-6">
@@ -38,12 +38,5 @@
             </div>
         </div>
     </div>
-    {{ end }}       
-
-    <!-- Pagination -->
-    {{ if gt $paginator.TotalPages 1 }}
-    <nav class="pagination" aria-label="Pagination">
-        {{ template "_internal/pagination.html" . }}
-    </nav>
-    {{ end }}
 </div>
+{{ end }}       

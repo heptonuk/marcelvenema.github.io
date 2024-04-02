@@ -1,7 +1,5 @@
 {{ define "main"}}
-    {{ range .Pages }}
-        {{- partial "list.html" . -}}
-    {{ end }}
+    {{- partial "list.html" . -}}
     <center class="cardbtn"><a href="{{ "blogs" | absURL }}" button class="form-control">All post</button></a></center>
     <br><br>
     {{- partial "links.html" . -}}
