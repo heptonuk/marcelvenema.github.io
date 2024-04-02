@@ -1,6 +1,6 @@
 <!-- Blogs -->
-{{ $posts := where .Site.Pages "Params.type" "post" }}
-{{ range $posts.ByDate.Reverse | first .Site.Params.pagination }}
+{{ $paginator := .Paginator }}
+{{ range $paginator.Pages }}
 <div class="container pt-3 pb-3">
     <div class="card mb-3 cardmain">
         <div class="row g-0">

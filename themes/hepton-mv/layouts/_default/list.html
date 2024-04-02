@@ -13,8 +13,7 @@
     <div>
         <div class="container">
             <div class="row ">
-                {{ $posts := where .Site.Pages "Params.type" "post" }}
-                {{ range $posts.ByDate.Reverse | first .Site.Params.pagination }}
+                {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
                 <div class="col-md-5 card-main-1">
                     <div class="card mb-5">
                         <img src="{{ .Params.image }}" class="card-img-top" alt="...">
@@ -65,5 +64,4 @@
            </div>
        </div>
    </div>
-
 {{ end }}

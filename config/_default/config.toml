@@ -2,6 +2,8 @@ baseURL = "https://marcelvenema.github.io"
 languageCode = 'en-us'
 theme = ["hepton-mv", "hugo-shortcode-gallery"]
 
+paginate = 4
+
 [params]
     title = "MarcelVenema.com"
     author = "Marcel Venema"
@@ -9,7 +11,6 @@ theme = ["hepton-mv", "hugo-shortcode-gallery"]
     favicon = "/img/favicon.png"
     headerLogo = "/img/logo_MarcelVenema600.png"
     headerImage = "/img/main.png"
-    pagination = 4
     aboutImageR = "/img/main/about.webp"
     aboutImageL = "/img/main/tools.webp"
     subscriptionText = "SUBSCRIBE VIA EMAIL"
