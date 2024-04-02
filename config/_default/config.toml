@@ -25,7 +25,7 @@ theme = ["hepton-mv", "hugo-shortcode-gallery"]
   ]
   
   placeholder = [
-      {views = "5", likes = "4"}
+      {views = "5", likes = "4", comments = "10"}
   ]
 [menu]
   [[menu.main]]
